@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog posts</title>
+    <link rel="stylesheet" href="./blog.css">
+</head>
+<body>
+    <!-- Header -->
+   <div class="crumb-container">
+    <header class="header small-header">
+        <div class="title">My blog</div>
+        <nav aria-label="crumb">
+            <ol class="crumb" >
+                <li class="crumb-item non-active"><a href="./home.html">Home</a></li>
+                <li class="crumb-item active" aria-current="page"><a href="./blog.html">Log In</a></li>
+            </ol>
+        </nav>
+    </header>
+   </div>
+    <div class="container">
+          <!-- Log In -->
+          <h1>login</h1>
+          <hr>
+          <div class="row mt-5">
+             <div class="col-md-6">
+                <h3 class="secondary-title">Fill :</h3>        
+                <div class="group">
+                   <input type="email" class="control" id="Email-input" placeholder="Email address">
+                </div><br>
+                <div class="group">
+                    <input type="letters" class="control" id="username" placeholder="username">
+                </div><br>
+                <div class="group">
+                    <input type="password" class="control" id="password" placeholder="password...." minlength="5" maxlength="10">
+                </div><br>
+                <div class="group">
+                   <i>date of birth</i><br>
+                   <input type="date" class="control" id="date-input" placeholder="Date">
+                </div><br>
+                <div class="group">
+                    <i>Age</i><br>
+                   <select class="control" id="FormControl1">
+                      <option class="bold-option">select</option>
+                      <option>Other</option>
+                      <option>10-15</option>
+                      <option>16-20</option>
+                      <option>21-27</option>
+                      <option>28-35</option>
+                      <option>36-45</option>
+                      <option>45-60</option>
+                   </select>
+                </div><br>
+                <div class="form-group">
+                    <textarea class="form-control" id="Textarea1" rows="5" placeholder="Something about yourself....."></textarea>
+                 </div>
+     </div>
+</body>
+</html>

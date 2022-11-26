@@ -1,0 +1,222 @@
+/* @import url(./themify-icons.css);
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url(./responsive.css); */
+/* section {
+    padding: 55px 0;
+  }
+.secondary-title {
+    font-size: 17px;
+    opacity: 0.7;
+    margin-bottom: 15px;
+  }
+  .small-header .title {
+    font-size: 2.4rem;
+    font-weight: bold;
+    opacity: .8;
+    color: #212529;
+  }
+  
+  .small-header {
+    min-height: 24rem;
+    height: 24rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    background: #d8f9f2 !important;
+  }
+  .small-header li,a{
+    list-style: none;
+    text-decoration: none;
+  }
+  .control:focus {
+    border-color: #c2f6ea;
+  }
+  
+  .control{
+    height: 30px;
+    line-height: 35px;
+    font-size: 13px;
+  }
+  
+  .control {
+    font-size: 16px;
+    height: 50px;
+    line-height: 60px;
+  }
+  select.control,
+textarea.control {
+  line-height: 1.5;
+}
+.bold-option{
+    font-weight: 200;
+}
+h1{
+    text-transform:capitalize;
+    color: rgb(0, 255, 191);
+    font-family: "themify";
+}
+.crumb {
+    font-size: 0.9rem;
+  }
+ .non-active a {
+    color: white;
+    text-decoration: none;
+   
+  }
+  li.non-active{
+     height:100%;
+     width: 150%;
+     background-color: rgb(0, 255, 191);
+     transition: background-color 10s !important;
+     align-items: center;
+     justify-content: center;
+     padding-top: 30%;
+  }
+li.non-active:hover{
+    background-color: cadetblue;
+    transition: all 1s;
+}
+.active{
+    border-bottom: 1px solid black;
+    padding-top: 30%;
+}
+.active a{
+    color: black !important;
+    padding-top: 70%;
+}
+.active:hover{
+  border-bottom: 1px solid cadetblue;
+}
+.active a:hover{
+  color:cadetblue !important;
+}
+hr {
+    margin: 10px 0 25px;
+  }
+.crumb {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding: 0.55rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 0rem;
+    font-size: larger;
+    font-weight: bold;
+    font-family: "themify";
+
+  }
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+ * /
+
+/* nav.secondnav{
+  background-color: lightskyblue;
+ height: 75px;
+} */
+div.container-nav1{
+  display: inline;
+  background-color: white;
+  border-bottom: 4px solid black;
+  display: inline;
+}
+div.logo img{
+  height: 15%;
+  width:  15%;
+  padding-left: 20%;
+}
+div.socials{
+  float: left;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  padding-bottom: 45px;
+  align-items: center;
+  gap: 20px;
+}
+div.logo{
+  float: right;
+  width: 150px;
+  height: 150px;
+  padding-left:1000px;
+} 
+div.socials img{
+  width: 25px;
+  height: 25px;
+}
+.firstnav{
+  height: 30px;
+  background-color:white;
+  border: 4px 4px solid black;
+}
+.container-nav2{
+  text-decoration: none;
+  list-style: none;
+  display: inline-flex;
+}
+.github img{
+  width: 28%;
+  height: 28%;
+}
+img{
+  background-color: white;
+}
+.special{
+  width: 120%;
+  height: 120%;
+}
+#intro{
+  background-color: black !important;
+  text-align: center !important;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-image: linear-gradient(62deg, #181719 100%);
+}
+#intro p{
+  color:white;
+  /* vertical-align: middle; */
+  font-size: 1rem;
+  font-weight: 200;
+}
+h1{
+  color: white;
+  font-size: 2rem;
+  font-family: sans-serif;
+  /* vertical-align: middle; */
+}
+.big-image{
+ background-image: url(https://www.w3schools.com/w3images/jane.jpg);
+ height: 1000px;
+ background-repeat: no-repeat;
+}
+.big-image img{
+  background-size: cover;
+  background-position: center;
+  width:100vh;
+}
