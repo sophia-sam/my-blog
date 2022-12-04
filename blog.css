@@ -1,22 +1,26 @@
-/* @import url(./themify-icons.css);
+ @import url(./themify-icons.css);
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
-@import url(./responsive.css); */
-/* section {
+@import url(./responsive.css);
+@font-face{
+  src: url(./Oswald/Oswald-VariableFont_wght.ttf);
+  font-family: "osward";
+} 
+section {
     padding: 55px 0;
-  }
+}
 .secondary-title {
     font-size: 17px;
     opacity: 0.7;
     margin-bottom: 15px;
-  }
-  .small-header .title {
+}
+.small-header .title {
     font-size: 2.4rem;
     font-weight: bold;
     opacity: .8;
     color: #212529;
-  }
+}
   
-  .small-header {
+.small-header {
     min-height: 24rem;
     height: 24rem;
     display: -webkit-box;
@@ -39,27 +43,27 @@
     text-align: center;
     padding: 1rem;
     background: #d8f9f2 !important;
-  }
-  .small-header li,a{
+}
+.small-header li,a{
     list-style: none;
     text-decoration: none;
-  }
-  .control:focus {
+}
+.control:focus {
     border-color: #c2f6ea;
-  }
+}
   
-  .control{
+.control{
     height: 30px;
     line-height: 35px;
     font-size: 13px;
-  }
+}
   
-  .control {
+.control {
     font-size: 16px;
     height: 50px;
     line-height: 60px;
-  }
-  select.control,
+}
+select.control,
 textarea.control {
   line-height: 1.5;
 }
@@ -123,52 +127,60 @@ hr {
     font-family: "themify";
 
   }
-  .container {
+.container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-  }
- * /
-
-/* nav.secondnav{
-  background-color: lightskyblue;
- height: 75px;
-} */
+ }
+nav.secondnav{
+background-image:linear-gradient(-62deg,rgb(240, 7, 213),#abd2ab,rgb(229, 226, 138),rgb(239, 121, 121),rgb(146, 220, 247),rgb(238, 186, 57));
+ padding: 10px;
+ top: 0;
+ z-index: 1020;
+ height: 40px;
+ min-height: 60px;
+ font-weight: 400;
+ background-color: black;
+ position: sticky;
+} 
 div.container-nav1{
   display: inline;
-  background-color: white;
+  background-color:black;
   border-bottom: 4px solid black;
   display: inline;
+  padding-top: 5%;
 }
 div.logo img{
-  height: 15%;
-  width:  15%;
-  padding-left: 20%;
+  height: 70px;
+  width:  70px;
+  padding-left: 20px;
 }
 div.socials{
-  float: left;
+  float: right;
   display: grid;
-  grid-template-columns: repeat(6,1fr);
-  padding-bottom: 45px;
+  grid-template-columns: repeat(4,1fr);
   align-items: center;
   gap: 20px;
+  padding-right: 20px;
+  padding-top: 25px;
 }
 div.logo{
-  float: right;
+  float: left;
   width: 150px;
   height: 150px;
-  padding-left:1000px;
 } 
 div.socials img{
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
+  background-color: white;
 }
 .firstnav{
-  height: 30px;
+  padding: 10px;
+  height: 75px;
+  width: 970;
   background-color:white;
-  border: 4px 4px solid black;
 }
 .container-nav2{
   text-decoration: none;
@@ -179,44 +191,66 @@ div.socials img{
   width: 28%;
   height: 28%;
 }
-img{
-  background-color: white;
-}
 .special{
   width: 120%;
   height: 120%;
 }
-#intro{
-  background-color: black !important;
-  text-align: center !important;
-  height: 200px;
+#home{
+  font-family: "osward";
+  background-color: black;
+  box-sizing: border-box;
+}
+.img1{
+  height: 450px;
+  background: url(./images/Beauty\ Of\ Nature🍀🐞🌲\ on\ Twitter\ _\ Fond\ d\'ecran\ pastel\,\ Fond\ d\'écran\ coloré\,\ Fond\ d\'écran\ téléphone.jpeg) center no-repeat;
+}
+.feautured-post img{
+   width: 201px;
+   height: 167px;
+   padding: 0;
+}
+.posts{
+  display: flex;
+  justify-content: space-between;
+  width: 950px;
+  align-items: center;
+  padding-left: 6%;
+}
+.f-caption{
+  background-color: rgba(237, 153, 233, 0.5);
+  color: black;
+  position: absolute;
+  top: 112%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  /* justify-content: center; */
-  /* align-items: center; */
-  background-image: linear-gradient(62deg, #181719 100%);
+  justify-content: end;
+  height: 25px;
+  text-align: center;
+  font-weight: lighter;
+  font-family: "osward";
+  width: 134px;
+  align-self: center;
+  align-items: center;
+  margin-left: 26px;
+  margin-right: 26px;
+  padding: 10px;
 }
-#intro p{
-  color:white;
-  /* vertical-align: middle; */
-  font-size: 1rem;
-  font-weight: 200;
+.feautured-post{
+  padding: 0;
 }
-h1{
-  color: white;
-  font-size: 2rem;
-  font-family: sans-serif;
-  /* vertical-align: middle; */
+.specialpost{
+  height: 167px;
+  width: 120px;
+  background-color: black;
+  background-image:linear-gradient(-62deg,rgb(240, 7, 213),#abd2ab,rgb(229, 226, 138),rgb(239, 121, 121),rgb(146, 220, 247),rgb(238, 186, 57));
+
 }
-.big-image{
- background-image: url(https://www.w3schools.com/w3images/jane.jpg);
- height: 1000px;
- background-repeat: no-repeat;
+.f-caption:hover{
+  background-color: purple;
 }
-.big-image img{
-  background-size: cover;
-  background-position: center;
-  width:100vh;
+.hr1{
+ margin: 40px 68px 25px;
+ width: 950px;
+ background-image:linear-gradient(-62deg,rgb(240, 7, 213),#abd2ab,rgb(229, 226, 138),rgb(239, 121, 121),rgb(146, 220, 247),rgb(238, 186, 57));
+ background-color: black;
 }
